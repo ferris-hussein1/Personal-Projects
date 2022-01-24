@@ -1,0 +1,55 @@
+Ferris Hussein
+
+Test Case E: 
+In this test case I tested the different possible errors that can occur during different malloc and free calls. 
+
+I tested the following malloc calls and printed errors accordingly:
+malloc(-1): 
+    I run into an error if I malloc space smaller than 1 byte
+malloc(0):  
+    I run into an error if I malloc space smaller than 1 byte
+malloc(4095): 
+    I cannot malloc bytes greater than 4094 since our metadata has a size of two bytes
+malloc(4094) then malloc(1): 
+    Indeed I can malloc 4094 bytes but no more than that. 
+
+I tested free calls and printed errors accordingly:
+short * freeTwice = (short*)malloc(1);
+    I malloc'd some space so I can attempt to free the space twice
+free(freeTwice);
+    Successfully free previously malloc'd space
+free(freeTwice);
+    Error, I cannot free previously allocated space more than once
+
+
+
+Test Case F:
+In this test case I wanted to demonstrate how free blocks are merged together.
+
+I first malloc four spaces of different sizes in our char array:
+int * w = (int*)malloc(8);
+char * x = (char*)malloc(4);
+short * y = (short*)malloc(8);
+long * z = (long*)malloc(20); 
+
+Then, I free'd both x, and y and used my print function to demonstrate the merged block:
+free(x);
+free(y);
+print();
+
+
+
+EXTRA TEST CASE:
+Test Case G:
+In this test case I wanted to see how many times I can malloc 1 byte in a function.
+
+I executed the following test to see where I would run into a malloc error:
+int i = 0;
+int * x;
+   
+while (x) {
+    x = (int*)malloc(1);
+    i++;
+}
+
+At this point, the ith malloc had run into an error. So I can conclude that the maximum number of times a person can malloc 1 byte is i-1 time which is 1365 times

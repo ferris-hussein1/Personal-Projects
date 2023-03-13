@@ -1,0 +1,6 @@
+cancer_study_identifier: abc
+stable_id: pcc_fm_1_sequenced
+case_list_name: Samples with mutation data
+case_list_description: Samples with mutation data (232 samples)
+case_list_category: all_cases_with_mutation_data
+case_list_ids:

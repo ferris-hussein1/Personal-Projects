@@ -1,0 +1,8 @@
+cancer_study_identifier: abc
+stable_id: mutations
+profile_name: Mutations
+profile_description: Foundation One sequencing of Perlmutter Cancer Center patients.
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+show_profile_in_analysis_tab: true
+data_filename: data_mutations_extended.txt

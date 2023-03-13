@@ -1,5 +1,0 @@
-#Patient Identifier	Gender	Race	Smoking History	Age (Alive)	Age (Deceased)	Survival Status
-#Patient identifier	Gender	Race	Smoking History	Age (Alive)	Age (Deceased)	Survival Status
-#STRING	STRING	STRING	STRING	NUMBER	NUMBER	STRING
-#1	1	1	1	1	1	1
-PATIENT_ID	GENDER	RACE	SMOKING HISTORY	AGE	AGED	SURVIVAL STATUS

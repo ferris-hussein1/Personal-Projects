@@ -1,0 +1,5 @@
+#Patient Identifier	Sample Identifier	Diagnoses	Test Type	Specimen Format	Specimen Site	Medical Facility Name	Alteration Count	Clinical Trial Count	Sensitizing Count	Resistive Count
+#Patient Identifier	Sample Identifier	Diagnoses	Test Type	Specimen Format	Specimen Site	Medical Facility Name	Alteration Count	Clinical Trial Count	Sensitizing Count	Resistive Count
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	NUMBER	NUMBER	NUMBER
+#1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	SUBMITTED DIAGNOSES	TEST TYPE	SPECIMEN FORMAT	SPECIMEN SITE	MEDICAL FACILITY NAME	ALTERATION COUNT	CLINICAL TRIAL COUNT	SENSITIZING COUNT	RESISTIVE COUNT

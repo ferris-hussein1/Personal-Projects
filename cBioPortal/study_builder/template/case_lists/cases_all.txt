@@ -1,0 +1,6 @@
+cancer_study_identifier: abc
+stable_id: pcc_fm_1_all_1
+case_list_name: All samples
+case_list_description: All samples (232 samples)
+case_list_category: all_cases_in_study
+case_list_ids:
